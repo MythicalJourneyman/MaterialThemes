@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.LinearLayoutCompat
+                android:id="@+id/container1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:background="#f44336"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/heading"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginLeft="64dp"
+                    android:layout_marginTop="16dp"
+                    android:text="RED"
+                    android:textColor="#fff"
+                    android:textSize="24sp"
+                    android:textStyle="bold"/>
+
+
+                <android.support.v7.widget.LinearLayoutCompat
+                    android:id="@+id/container2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#f44336"
+                    android:orientation="horizontal"
+                    android:padding="16dp">
+
+                    <android.support.v7.widget.AppCompatTextView
+                        android:id="@+id/text1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="500"
+                        android:textColor="#fff"
+                        android:textSize="18sp"/>
+
+                    <android.support.v7.widget.AppCompatTextView
+                        android:id="@+id/text2"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:text="#f44336"
+                        android:textAllCaps="true"
+                        android:textColor="#fff"
+                        android:textSize="18sp"/>
+
+                </android.support.v7.widget.LinearLayoutCompat>
+            </android.support.v7.widget.LinearLayoutCompat>
+
+            <android.support.v7.widget.LinearLayoutCompat
+                android:id="@+id/container50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffebee"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/text50"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="50"
+                    android:textColor="#000"
+                    android:textSize="18sp"/>
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/color50"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:text="#ffebee"
+                    android:textAllCaps="true"
+                    android:textColor="#000"
+                    android:textSize="18sp"/>
+
+            </android.support.v7.widget.LinearLayoutCompat>
+
+            <android.support.v7.widget.LinearLayoutCompat
+                android:id="@+id/container100"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffcdd2"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/text100"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="100"
+                    android:textColor="#000"
+                    android:textSize="18sp"/>
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/color100"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:text="#ffcdd2"
+                    android:textAllCaps="true"
+                    android:textColor="#000"
+                    android:textSize="18sp"/>
+
+            </android.support.v7.widget.LinearLayoutCompat>
+
+            <android.support.v7.widget.LinearLayoutCompat
+                android:id="@+id/container200"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ef9a9a"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/text200"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="200"
+                    android:textColor="#000"
+                    android:textSize="18sp"/>
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/color200"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:text="#ef9a9a"
+                    android:textAllCaps="true"
+                    android:textColor="#000"
+                    android:textSize="18sp"/>
+
+            </android.support.v7.widget.LinearLayoutCompat>
+
+            <android.support.v7.widget.LinearLayoutCompat
+                android:id="@+id/container300"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#e57373"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/text300"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="300"
+                    android:textColor="#000"
+                    android:textSize="18sp"/>
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/color300"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:text="#e57373"
+                    android:textAllCaps="true"
+                    android:textColor="#000"
+                    android:textSize="18sp"/>
+
+            </android.support.v7.widget.LinearLayoutCompat>
+
+            <android.support.v7.widget.LinearLayoutCompat
+                android:id="@+id/container400"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ef5350"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/text400"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="400"
+                    android:textColor="#fff"
+                    android:textSize="18sp"/>
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/color400"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:text="#ef5350"
+                    android:textAllCaps="true"
+                    android:textColor="#fff"
+                    android:textSize="18sp"/>
+
+            </android.support.v7.widget.LinearLayoutCompat>
+
+            <android.support.v7.widget.LinearLayoutCompat
+                android:id="@+id/container500"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#f44336"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/text500"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="500"
+                    android:textColor="#fff"
+                    android:textSize="18sp"/>
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/color500"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:text="#f44336"
+                    android:textAllCaps="true"
+                    android:textColor="#fff"
+                    android:textSize="18sp"/>
+
+            </android.support.v7.widget.LinearLayoutCompat>
+
+            <android.support.v7.widget.LinearLayoutCompat
+                android:id="@+id/container600"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#e53935"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/text600"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="600"
+                    android:textColor="#fff"
+                    android:textSize="18sp"/>
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/color600"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:text="#e53935"
+                    android:textAllCaps="true"
+                    android:textColor="#fff"
+                    android:textSize="18sp"/>
+
+            </android.support.v7.widget.LinearLayoutCompat>
+
+            <android.support.v7.widget.LinearLayoutCompat
+                android:id="@+id/container700"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#d32f2f"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/text700"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="700"
+                    android:textColor="#fff"
+                    android:textSize="18sp"/>
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/color700"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:text="#d32f2f"
+                    android:textAllCaps="true"
+                    android:textColor="#fff"
+                    android:textSize="18sp"/>
+
+            </android.support.v7.widget.LinearLayoutCompat>
+
+            <android.support.v7.widget.LinearLayoutCompat
+                android:id="@+id/container800"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#c62828"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/text800"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="800"
+                    android:textColor="#fff"
+                    android:textSize="18sp"/>
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/color800"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:text="#c62828"
+                    android:textAllCaps="true"
+                    android:textColor="#fff"
+                    android:textSize="18sp"/>
+
+            </android.support.v7.widget.LinearLayoutCompat>
+
+            <android.support.v7.widget.LinearLayoutCompat
+                android:id="@+id/container900"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#b71c1c"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/text900"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="900"
+                    android:textColor="#fff"
+                    android:textSize="18sp"/>
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/color900"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:text="#b71c1c"
+                    android:textAllCaps="true"
+                    android:textColor="#fff"
+                    android:textSize="18sp"/>
+
+            </android.support.v7.widget.LinearLayoutCompat>
+
+            <android.support.v7.widget.LinearLayoutCompat
+                android:id="@+id/accentContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <android.support.v7.widget.LinearLayoutCompat
+                    android:id="@+id/containerA100"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:background="#ff8a80"
+                    android:orientation="horizontal"
+                    android:padding="16dp">
+
+                    <android.support.v7.widget.AppCompatTextView
+                        android:id="@+id/textA100"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="A100"
+                        android:textColor="#fff"
+                        android:textSize="18sp"/>
+
+                    <android.support.v7.widget.AppCompatTextView
+                        android:id="@+id/colorA100"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:text="#ff8a80"
+                        android:textAllCaps="true"
+                        android:textColor="#fff"
+                        android:textSize="18sp"/>
+
+                </android.support.v7.widget.LinearLayoutCompat>
+
+                <android.support.v7.widget.LinearLayoutCompat
+                    android:id="@+id/containerA200"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ff5252"
+                    android:orientation="horizontal"
+                    android:padding="16dp">
+
+                    <android.support.v7.widget.AppCompatTextView
+                        android:id="@+id/textA200"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="A200"
+                        android:textColor="#fff"
+                        android:textSize="18sp"/>
+
+                    <android.support.v7.widget.AppCompatTextView
+                        android:id="@+id/colorA200"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:text="#ff5252"
+                        android:textAllCaps="true"
+                        android:textColor="#fff"
+                        android:textSize="18sp"/>
+
+                </android.support.v7.widget.LinearLayoutCompat>
+
+                <android.support.v7.widget.LinearLayoutCompat
+                    android:id="@+id/containerA400"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ff1744"
+                    android:orientation="horizontal"
+                    android:padding="16dp">
+
+                    <android.support.v7.widget.AppCompatTextView
+                        android:id="@+id/textA400"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="A400"
+                        android:textColor="#fff"
+                        android:textSize="18sp"/>
+
+                    <android.support.v7.widget.AppCompatTextView
+                        android:id="@+id/colorA400"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:text="#ff1744"
+                        android:textAllCaps="true"
+                        android:textColor="#fff"
+                        android:textSize="18sp"/>
+
+                </android.support.v7.widget.LinearLayoutCompat>
+
+                <android.support.v7.widget.LinearLayoutCompat
+                    android:id="@+id/containerA700"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#d50000"
+                    android:orientation="horizontal"
+                    android:padding="16dp">
+
+                    <android.support.v7.widget.AppCompatTextView
+                        android:id="@+id/textA700"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="A700"
+                        android:textColor="#fff"
+                        android:textSize="18sp"/>
+
+                    <android.support.v7.widget.AppCompatTextView
+                        android:id="@+id/colorA700"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:text="#d50000"
+                        android:textAllCaps="true"
+                        android:textColor="#fff"
+                        android:textSize="18sp"/>
+
+                </android.support.v7.widget.LinearLayoutCompat>
+
+            </android.support.v7.widget.LinearLayoutCompat>
+
+
+        </android.support.v7.widget.LinearLayoutCompat>
+    </ScrollView>
+</layout>
