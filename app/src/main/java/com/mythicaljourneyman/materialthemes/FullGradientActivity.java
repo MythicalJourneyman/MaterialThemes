@@ -35,7 +35,11 @@ public class FullGradientActivity extends AppCompatActivity {
             R.drawable.gradient_background9a,
             R.drawable.gradient_background9b,
             R.drawable.gradient_background10a,
-            R.drawable.gradient_background10b};
+            R.drawable.gradient_background10b,
+            R.drawable.gradient_background11a,
+            R.drawable.gradient_background11b,
+            R.drawable.gradient_background12a,
+            R.drawable.gradient_background12b};
 
     public static Intent getStartIntent(Context context) {
         Intent intent = new Intent(context, FullGradientActivity.class);

@@ -46,6 +46,19 @@
                             android:layout_height="wrap_content"
                             android:layout_margin="8dp"
                             android:layout_marginBottom="8dp"
+                            android:background="@drawable/gradient_background11c"
+                            android:elevation="4dp"
+                            android:gravity="center"
+                            android:padding="8dp"
+                            android:text="@string/lorem_ipsum_button"
+                            android:textColor="#fff"
+                            android:textSize="32sp"/>
+
+                        <android.support.v7.widget.AppCompatTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="8dp"
+                            android:layout_marginBottom="8dp"
                             android:background="@drawable/gradient_background1c"
                             android:elevation="4dp"
                             android:gravity="center"
@@ -271,6 +284,70 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="8dp"
                     android:background="@drawable/gradient_background6"
+                    android:elevation="4dp"
+                    android:padding="8dp">
+
+                    <android.support.v7.widget.LinearLayoutCompat
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <android.support.v7.widget.AppCompatTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="8dp"
+                            android:text="@string/lorem_ipsum_short"
+                            android:textSize="16sp"/>
+
+
+                        <android.support.v7.widget.AppCompatTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="8dp"
+                            android:text="@string/lorem_ipsum_short"
+                            android:textSize="16sp"/>
+
+                    </android.support.v7.widget.LinearLayoutCompat>
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/gradient_background11"
+                    android:elevation="4dp"
+                    android:padding="8dp">
+
+                    <android.support.v7.widget.LinearLayoutCompat
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <android.support.v7.widget.AppCompatTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="8dp"
+                            android:text="@string/lorem_ipsum_short"
+                            android:textSize="16sp"/>
+
+
+                        <android.support.v7.widget.AppCompatTextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="8dp"
+                            android:text="@string/lorem_ipsum_short"
+                            android:textSize="16sp"/>
+
+                    </android.support.v7.widget.LinearLayoutCompat>
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/gradient_background12"
                     android:elevation="4dp"
                     android:padding="8dp">
 
