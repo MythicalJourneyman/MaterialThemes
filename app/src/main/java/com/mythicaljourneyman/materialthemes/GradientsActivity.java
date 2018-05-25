@@ -23,6 +23,7 @@ public class GradientsActivity extends AppCompatActivity {
         mBinding = DataBindingUtil.setContentView(this, R.layout.activity_gradients);
         setSupportActionBar(mBinding.toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("Sample Gradients");
     }
 
     @Override

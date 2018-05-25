@@ -706,6 +706,7 @@
     <string name="lorem_ipsum_short">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</string>
     <string name="lorem_ipsum_button">Lorem ipsum dolor</string>
     <string name="lorem_ipsum_heading">Lorem ipsum dolor sit amet</string>
+    <string name="checkout_on_github">Check out the project on github.</string>
 
 
 </resources>

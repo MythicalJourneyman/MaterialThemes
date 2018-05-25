@@ -6,12 +6,14 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.res.ColorStateList;
 import android.databinding.DataBindingUtil;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.view.LayoutInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
@@ -37,14 +39,17 @@ public class ThemesActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        // TODO: 27-04-2018 blogger sans , capsuula , raleway , kelson ,infinity ,
-        // TODO: 27-04-2018 asap , ahmono ,
         mBinding = DataBindingUtil.setContentView(this, R.layout.activity_main);
+        setSupportActionBar(mBinding.toolbar);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
         int type = getIntent().getIntExtra("type", 0);
         int[][] colors;
         if (type == 0) {
+            setTitle("Single Tone");
             colors = ColorsUtil.getSingleToneColorArray();
         } else {
+            setTitle("Dual Tone");
             colors = ColorsUtil.getDualToneColorArray();
 
         }
@@ -70,6 +75,16 @@ public class ThemesActivity extends AppCompatActivity {
             }
         });
 
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        if (item.getItemId() == android.R.id.home) {
+            onBackPressed();
+            return true;
+        } else {
+            return super.onOptionsItemSelected(item);
+        }
     }
 
     class ViewPagerAdapter extends PagerAdapter {
@@ -104,6 +119,8 @@ public class ThemesActivity extends AppCompatActivity {
             binding.button33.setTextColor(colorAccent);
             binding.button36.setTextColor(colorAccent);
             binding.button39.setTextColor(colorAccent);
+            binding.button42.setTextColor(colorAccent);
+            binding.button45.setTextColor(colorAccent);
             binding.heading.setTextColor(colorAccent);
             binding.heading1.setTextColor(colorAccent);
             binding.heading2.setTextColor(colorAccent);
@@ -116,6 +133,8 @@ public class ThemesActivity extends AppCompatActivity {
             binding.heading9.setTextColor(colorAccent);
             binding.heading10.setTextColor(colorAccent);
             binding.heading11.setTextColor(colorAccent);
+            binding.heading12.setTextColor(colorAccent);
+            binding.heading13.setTextColor(colorAccent);
             binding.fab.setBackgroundTintList(ColorStateList.valueOf(colorAccent));
             binding.button0.setBackgroundTintList(ColorStateList.valueOf(colorAccent));
             binding.button8.setBackgroundTintList(ColorStateList.valueOf(colorAccent));
@@ -129,6 +148,8 @@ public class ThemesActivity extends AppCompatActivity {
             binding.button32.setBackgroundTintList(ColorStateList.valueOf(colorAccent));
             binding.button35.setBackgroundTintList(ColorStateList.valueOf(colorAccent));
             binding.button38.setBackgroundTintList(ColorStateList.valueOf(colorAccent));
+            binding.button41.setBackgroundTintList(ColorStateList.valueOf(colorAccent));
+            binding.button44.setBackgroundTintList(ColorStateList.valueOf(colorAccent));
             binding.button2.setBackgroundTintList(ColorStateList.valueOf(colorAccent));
             binding.button3.setButtonTintList(ColorStateList.valueOf(colorAccent));
             binding.button4.setButtonTintList(ColorStateList.valueOf(colorAccent));
