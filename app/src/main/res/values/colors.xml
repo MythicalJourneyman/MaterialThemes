@@ -2,5 +2,21 @@
 <resources>
     <color name="colorPrimary">#080706</color>
     <color name="colorPrimaryDark">#080706</color>
-    <color name="colorAccent">#1b2</color>
+    <color name="colorAccent">#ffffff</color>
+
+
+    <color name="tone_card_background_1">#fcfdfe</color>
+    <color name="tone_card_background_2">#ffeae1</color>
+    <color name="tone_card_background_3">#fef3e2</color>
+    <color name="tone_card_background_4">#fef2ef</color>
+    <color name="tone_card_background_5">#fffbe5</color>
+    <color name="tone_card_background_6">#f7efe2</color>
+    <color name="tone_card_background_7">#f1f3ce</color>
+    <color name="tone_card_background_8">#f0efea</color>
+    <color name="tone_card_background_9">#edfffc</color>
+    <color name="tone_card_background_10">#dfdfff</color>
+    <color name="tone_card_background_11">#f4eade</color>
+    <color name="tone_card_background_12">#eae2d6</color>
+    <color name="tone_card_background_13">#ebdcb2</color>
+
 </resources>

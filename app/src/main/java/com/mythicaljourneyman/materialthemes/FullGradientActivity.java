@@ -8,6 +8,7 @@ import android.support.annotation.NonNull;
 import android.support.v4.view.PagerAdapter;
 import android.support.v7.app.AppCompatActivity;
 import android.view.LayoutInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 
@@ -35,7 +36,19 @@ public class FullGradientActivity extends AppCompatActivity {
             R.drawable.gradient_background9a,
             R.drawable.gradient_background9b,
             R.drawable.gradient_background10a,
-            R.drawable.gradient_background10b};
+            R.drawable.gradient_background10b,
+            R.drawable.gradient_background11a,
+            R.drawable.gradient_background11b,
+            R.drawable.gradient_background12a,
+            R.drawable.gradient_background12b,
+            R.drawable.gradient_background13a,
+            R.drawable.gradient_background13b,
+            R.drawable.gradient_background14a,
+            R.drawable.gradient_background14b,
+            R.drawable.gradient_background15a,
+            R.drawable.gradient_background15b,
+            R.drawable.gradient_background16a,
+            R.drawable.gradient_background16b};
 
     public static Intent getStartIntent(Context context) {
         Intent intent = new Intent(context, FullGradientActivity.class);
@@ -47,6 +60,18 @@ public class FullGradientActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         mBinding = DataBindingUtil.setContentView(this, R.layout.activity_full_gradient);
         mBinding.viewpager.setAdapter(new GradientAdapter());
+        setSupportActionBar(mBinding.toolbar);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        if (item.getItemId() == android.R.id.home) {
+            onBackPressed();
+            return true;
+        } else {
+            return super.onOptionsItemSelected(item);
+        }
     }
 
     class GradientAdapter extends PagerAdapter {

@@ -5,7 +5,7 @@ android {
         release {
             keyAlias 'mythical'
             keyPassword 'mythical'
-            storeFile file('D:/My Android Projects/MaterialThemes/key.jks')
+            storeFile file('D:/git/New folder/key.jks')
             storePassword 'mythical'
         }
     }
