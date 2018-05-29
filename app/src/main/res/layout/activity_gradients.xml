@@ -15,10 +15,10 @@
             android:layout_height="wrap_content">
 
             <android.support.v7.widget.Toolbar
-                android:background="#fff"
                 android:id="@+id/toolbar"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"></android.support.v7.widget.Toolbar>
+                android:layout_height="wrap_content"
+                android:background="#fff"></android.support.v7.widget.Toolbar>
         </android.support.design.widget.AppBarLayout>
 
         <ScrollView
@@ -436,6 +436,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="8dp"
                             android:text="@string/lorem_ipsum_short"
+                            android:textColor="#fff"
                             android:textSize="16dp"/>
 
 
@@ -444,6 +445,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="8dp"
                             android:text="@string/lorem_ipsum_short"
+                            android:textColor="#fff"
                             android:textSize="16dp"/>
 
                     </android.support.v7.widget.LinearLayoutCompat>
@@ -468,6 +470,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="8dp"
                             android:text="@string/lorem_ipsum_short"
+                            android:textColor="#fff"
                             android:textSize="16dp"/>
 
 
@@ -476,6 +479,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="8dp"
                             android:text="@string/lorem_ipsum_short"
+                            android:textColor="#fff"
                             android:textSize="16dp"/>
 
                     </android.support.v7.widget.LinearLayoutCompat>
@@ -500,6 +504,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="8dp"
                             android:text="@string/lorem_ipsum_short"
+                            android:textColor="#fff"
                             android:textSize="16dp"/>
 
 
@@ -508,6 +513,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="8dp"
                             android:text="@string/lorem_ipsum_short"
+                            android:textColor="#fff"
                             android:textSize="16dp"/>
 
                     </android.support.v7.widget.LinearLayoutCompat>
@@ -532,6 +538,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="8dp"
                             android:text="@string/lorem_ipsum_short"
+                            android:textColor="#fff"
                             android:textSize="16dp"/>
 
 
@@ -540,6 +547,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="8dp"
                             android:text="@string/lorem_ipsum_short"
+                            android:textColor="#fff"
                             android:textSize="16dp"/>
 
                     </android.support.v7.widget.LinearLayoutCompat>
@@ -564,6 +572,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="8dp"
                             android:text="@string/lorem_ipsum_short"
+                            android:textColor="#fff"
                             android:textSize="16dp"/>
 
 
@@ -572,6 +581,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="8dp"
                             android:text="@string/lorem_ipsum_short"
+                            android:textColor="#fff"
                             android:textSize="16dp"/>
 
                     </android.support.v7.widget.LinearLayoutCompat>
@@ -596,6 +606,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="8dp"
                             android:text="@string/lorem_ipsum_short"
+                            android:textColor="#fff"
                             android:textSize="16dp"/>
 
 
@@ -604,6 +615,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="8dp"
                             android:text="@string/lorem_ipsum_short"
+                            android:textColor="#fff"
                             android:textSize="16dp"/>
 
                     </android.support.v7.widget.LinearLayoutCompat>
@@ -628,6 +640,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="8dp"
                             android:text="@string/lorem_ipsum_short"
+                            android:textColor="#fff"
                             android:textSize="16dp"/>
 
 
@@ -636,6 +649,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="8dp"
                             android:text="@string/lorem_ipsum_short"
+                            android:textColor="#fff"
                             android:textSize="16dp"/>
 
                     </android.support.v7.widget.LinearLayoutCompat>
@@ -660,6 +674,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="8dp"
                             android:text="@string/lorem_ipsum_short"
+                            android:textColor="#fff"
                             android:textSize="16dp"/>
 
 
@@ -668,6 +683,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="8dp"
                             android:text="@string/lorem_ipsum_short"
+                            android:textColor="#fff"
                             android:textSize="16dp"/>
 
                     </android.support.v7.widget.LinearLayoutCompat>

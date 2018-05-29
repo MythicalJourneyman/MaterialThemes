@@ -17,14 +17,15 @@ import com.mythicaljourneyman.materialthemes.databinding.LayoutFullGradientItemB
 
 public class FullGradientActivity extends AppCompatActivity {
     ActivityFullGradientBinding mBinding;
-    private int[] mGradients = {R.drawable.gradient_background1a,
-            R.drawable.gradient_background1b,
-            R.drawable.gradient_background2a,
-            R.drawable.gradient_background2b,
+    private int[] mGradients = {
             R.drawable.gradient_background3a,
             R.drawable.gradient_background3b,
             R.drawable.gradient_background4a,
             R.drawable.gradient_background4b,
+            R.drawable.gradient_background1a,
+            R.drawable.gradient_background1b,
+            R.drawable.gradient_background2a,
+            R.drawable.gradient_background2b,
             R.drawable.gradient_background5a,
             R.drawable.gradient_background5b,
             R.drawable.gradient_background6a,

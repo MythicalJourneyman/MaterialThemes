@@ -6,7 +6,6 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.res.ColorStateList;
 import android.databinding.DataBindingUtil;
-import android.graphics.Color;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v4.view.PagerAdapter;
@@ -167,8 +166,15 @@ public class ThemesActivity extends AppCompatActivity {
                     0xffd3d3d3,
                     colorAccent,
             };
+            int[] colorsA = new int[]{
+                    0xffd3d3d3,
+                    0xfff3f3f3,
+                    0xfff3f3f3,
+                    0xffd3d3d3,
+            };
 
             binding.button5.setThumbTintList(new ColorStateList(states, colors));
+            binding.button5.setTrackTintList(new ColorStateList(states, colorsA));
             binding.button6.setThumbTintList(ColorStateList.valueOf(colorAccent));
             binding.button6.setProgressTintList(ColorStateList.valueOf(colorAccent));
             binding.button7.setProgressTintList(ColorStateList.valueOf(colorAccent));
