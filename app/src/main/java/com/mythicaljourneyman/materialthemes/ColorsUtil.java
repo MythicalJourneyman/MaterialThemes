@@ -101,8 +101,7 @@ public class ColorsUtil {
         int[][] colors = {
                 {
                         0xff80bd9e,
-                        0xff90AFC5,
-                        0xff336b87,
+
                         0xff2a3132,
                         0xff693d3d,
                         0xffaebd38,
@@ -137,11 +136,12 @@ public class ColorsUtil {
                         0xff16253d,
                         0xff2f2e33,
                         0xff080706,
-                        0xff080706
+                        0xff080706,
+                        0xff90AFC5,
+                        0xff336b87,
                 }, {
                 0xffff420e,
-                0xff763626,
-                0xff763626,
+
                 0xff22aa33,
                 0xffba5536,
                 0xff598234,
@@ -176,11 +176,12 @@ public class ColorsUtil {
                 0xffcd7213,
                 0xff3a5199,
                 0xffd1b280,
-                0xdd11bb22
+                0xdd11bb22,
+                0xff763626,
+                0xff763626,
         }, {
                 0xff80bd9e,
-                0xff90AFC5,
-                0xff336b87,
+
                 0xff2a3132,
                 0xff693d3d,
                 0xffaebd38,
@@ -215,7 +216,9 @@ public class ColorsUtil {
                 0xff16253d,
                 0xff2f2e33,
                 0xff080706,
-                0xff080706
+                0xff080706,
+                0xff90AFC5,
+                0xff336b87,
         }
         };
 
