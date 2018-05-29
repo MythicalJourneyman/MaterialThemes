@@ -52,14 +52,14 @@
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="4dp"
                             android:text="@string/lorem_ipsum_heading"
-                            android:textSize="20sp"/>
+                            android:textSize="20dp"/>
 
                         <android.support.v7.widget.AppCompatTextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="8dp"
                             android:text="@string/lorem_ipsum_short"
-                            android:textSize="16sp"/>
+                            android:textSize="16dp"/>
 
                         <View
                             android:layout_width="match_parent"
@@ -179,14 +179,14 @@
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="4dp"
                             android:text="@string/lorem_ipsum_heading"
-                            android:textSize="20sp"/>
+                            android:textSize="20dp"/>
 
                         <android.support.v7.widget.AppCompatTextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="8dp"
                             android:text="@string/lorem_ipsum_short"
-                            android:textSize="16sp"/>
+                            android:textSize="16dp"/>
 
                         <View
                             android:layout_width="match_parent"
@@ -246,14 +246,14 @@
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="4dp"
                             android:text="@string/lorem_ipsum_heading"
-                            android:textSize="20sp"/>
+                            android:textSize="20dp"/>
 
                         <android.support.v7.widget.AppCompatTextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="8dp"
                             android:text="@string/lorem_ipsum_short"
-                            android:textSize="16sp"/>
+                            android:textSize="16dp"/>
 
                         <View
                             android:layout_width="match_parent"
@@ -314,14 +314,14 @@
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="4dp"
                             android:text="@string/lorem_ipsum_heading"
-                            android:textSize="20sp"/>
+                            android:textSize="20dp"/>
 
                         <android.support.v7.widget.AppCompatTextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="8dp"
                             android:text="@string/lorem_ipsum_short"
-                            android:textSize="16sp"/>
+                            android:textSize="16dp"/>
 
                         <View
                             android:layout_width="match_parent"
@@ -381,14 +381,14 @@
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="4dp"
                             android:text="@string/lorem_ipsum_heading"
-                            android:textSize="20sp"/>
+                            android:textSize="20dp"/>
 
                         <android.support.v7.widget.AppCompatTextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="8dp"
                             android:text="@string/lorem_ipsum_short"
-                            android:textSize="16sp"/>
+                            android:textSize="16dp"/>
 
                         <View
                             android:layout_width="match_parent"
@@ -448,14 +448,14 @@
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="4dp"
                             android:text="@string/lorem_ipsum_heading"
-                            android:textSize="20sp"/>
+                            android:textSize="20dp"/>
 
                         <android.support.v7.widget.AppCompatTextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="8dp"
                             android:text="@string/lorem_ipsum_short"
-                            android:textSize="16sp"/>
+                            android:textSize="16dp"/>
 
                         <View
                             android:layout_width="match_parent"
@@ -515,14 +515,14 @@
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="4dp"
                             android:text="@string/lorem_ipsum_heading"
-                            android:textSize="20sp"/>
+                            android:textSize="20dp"/>
 
                         <android.support.v7.widget.AppCompatTextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="8dp"
                             android:text="@string/lorem_ipsum_short"
-                            android:textSize="16sp"/>
+                            android:textSize="16dp"/>
 
                         <View
                             android:layout_width="match_parent"
@@ -582,14 +582,14 @@
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="4dp"
                             android:text="@string/lorem_ipsum_heading"
-                            android:textSize="20sp"/>
+                            android:textSize="20dp"/>
 
                         <android.support.v7.widget.AppCompatTextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="8dp"
                             android:text="@string/lorem_ipsum_short"
-                            android:textSize="16sp"/>
+                            android:textSize="16dp"/>
 
                         <View
                             android:layout_width="match_parent"
@@ -649,14 +649,14 @@
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="4dp"
                             android:text="@string/lorem_ipsum_heading"
-                            android:textSize="20sp"/>
+                            android:textSize="20dp"/>
 
                         <android.support.v7.widget.AppCompatTextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="8dp"
                             android:text="@string/lorem_ipsum_short"
-                            android:textSize="16sp"/>
+                            android:textSize="16dp"/>
 
                         <View
                             android:layout_width="match_parent"
@@ -716,14 +716,14 @@
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="4dp"
                             android:text="@string/lorem_ipsum_heading"
-                            android:textSize="20sp"/>
+                            android:textSize="20dp"/>
 
                         <android.support.v7.widget.AppCompatTextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="8dp"
                             android:text="@string/lorem_ipsum_short"
-                            android:textSize="16sp"/>
+                            android:textSize="16dp"/>
 
                         <View
                             android:layout_width="match_parent"
@@ -783,14 +783,14 @@
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="4dp"
                             android:text="@string/lorem_ipsum_heading"
-                            android:textSize="20sp"/>
+                            android:textSize="20dp"/>
 
                         <android.support.v7.widget.AppCompatTextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="8dp"
                             android:text="@string/lorem_ipsum_short"
-                            android:textSize="16sp"/>
+                            android:textSize="16dp"/>
 
                         <View
                             android:layout_width="match_parent"
@@ -850,14 +850,14 @@
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="4dp"
                             android:text="@string/lorem_ipsum_heading"
-                            android:textSize="20sp"/>
+                            android:textSize="20dp"/>
 
                         <android.support.v7.widget.AppCompatTextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="8dp"
                             android:text="@string/lorem_ipsum_short"
-                            android:textSize="16sp"/>
+                            android:textSize="16dp"/>
 
                         <View
                             android:layout_width="match_parent"
@@ -917,14 +917,14 @@
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="4dp"
                             android:text="@string/lorem_ipsum_heading"
-                            android:textSize="20sp"/>
+                            android:textSize="20dp"/>
 
                         <android.support.v7.widget.AppCompatTextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="8dp"
                             android:text="@string/lorem_ipsum_short"
-                            android:textSize="16sp"/>
+                            android:textSize="16dp"/>
 
                         <View
                             android:layout_width="match_parent"
@@ -984,14 +984,14 @@
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="4dp"
                             android:text="@string/lorem_ipsum_heading"
-                            android:textSize="20sp"/>
+                            android:textSize="20dp"/>
 
                         <android.support.v7.widget.AppCompatTextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginBottom="8dp"
                             android:text="@string/lorem_ipsum_short"
-                            android:textSize="16sp"/>
+                            android:textSize="16dp"/>
 
                         <View
                             android:layout_width="match_parent"
